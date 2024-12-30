@@ -1,8 +1,8 @@
 {
-  "name": "2-main_and_renderer_process",
+  "name": "3-browserwindow",
   "version": "1.0.0",
   "description": "Initialize node project\r ```cmd\r npm init -y\r ```",
-  "main": "./dist/main.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "npm run build && electron .",
     "build": "tsc"
