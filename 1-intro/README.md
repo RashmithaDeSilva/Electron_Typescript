@@ -1,4 +1,4 @@
-## How to setup electron
+# How to setup electron
 
 Initialize node project
 ```cmd
