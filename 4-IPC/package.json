@@ -1,0 +1,23 @@
+{
+  "name": "4-ipc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Initialize node project\r ```cmd\r npm init -y\r ```",
+  "type": "module",
+  "main": "dist/main",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "dev": "electron .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^33.2.1"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "typescript": "^5.7.2"
+  }
+}
