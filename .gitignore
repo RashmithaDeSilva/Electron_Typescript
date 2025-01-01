@@ -7,4 +7,5 @@
 3-BrowserWindow/dist/
 3-BrowserWindow/node_modules/
 
-
+4-IPC/dist/
+4-IPC/node_modules/
