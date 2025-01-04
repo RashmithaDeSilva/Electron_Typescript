@@ -44,6 +44,6 @@ function createWindowsType3(): void {
         show: false, // Avoid URL website load daily
     });
 
-    remoteWindow.loadURL("https://github.com/RashmithaDeSilva/Electron_Typescript");
+    remoteWindow.loadURL("https://www.electronjs.org/");
     remoteWindow.on("ready-to-show", () => remoteWindow.show());
 }

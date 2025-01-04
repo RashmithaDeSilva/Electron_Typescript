@@ -19,7 +19,7 @@ ipcMain.on("openItem", (event) => {
 });
 
 ipcMain.on("openLink", (event) => {
-    shell.openExternal("https://github.com/RashmithaDeSilva/Electron_Typescript");
+    shell.openExternal("https://www.electronjs.org/");
 });
 
 app.on("ready", () => {
